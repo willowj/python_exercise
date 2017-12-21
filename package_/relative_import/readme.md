@@ -18,7 +18,7 @@ Python：Relative import 相对路径 ValueError: Attempted relative import in n
 
 eg：执行外面的 z.py  触发里面 top/sub1/m1.py  使用相对路径
 
-​	[<u>GitHub</u>](https://github.com/willowj/python_exercise/package_/relative_import)     示例文件下载 [<u>rar_down</u>](https://github.com/willowj/python_exercise/package_/relative_import.rar)
+​	[<u>GitHub</u>](https://github.com/willowj/python_exercise/tree/master/package_/relative_import)     示例文件下载 [<u>rar_down</u>](https://github.com/willowj/python_exercise/tree/master/package_/relative_import.rar)
 
 <div align=center><img src="http://images2017.cnblogs.com/blog/1083549/201712/1083549-20171221233317365-2134773654.png"  /> </div>
 
