@@ -64,15 +64,18 @@ add(taxonomy,
 
 #----##->----------------------------------------
 
-def ptratree(t, depth=0):
+def prttree(t, depth=0):
     """ print a tree """
+    if not isinstance(t, dict):
+        return
     for k in t.keys():
-        print("%s %2d %s" % (" "*4*depth, depth, k))
+        print("%s %2d.> %s" % (" "*4*depth, depth, k))
         depth += 1
-        ptratree(t[k], depth)
+        prttree(t[k], depth)
         depth -= 1
 
-ptratree(taxonomy)
+
+prttree(taxonomy)
 import pprint
 pprint.pprint (taxonomy)
 

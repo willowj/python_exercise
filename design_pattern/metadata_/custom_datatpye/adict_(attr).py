@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 # author: willowj
-# license: MIT
 # date: 2018-01-02 06:23:31
 #
 '''add attribute method to dict, with same behaviour
-auto set complete, any dict added in will convert to adict '''
+ any dict added in will be converted to adict '''
 
 from __future__ import print_function
 from __future__ import unicode_literals
@@ -53,7 +52,7 @@ class adict(dict):
 
 
 if __name__ == '__main__':
-    print('>>auto set complete, any dict in will converted to adict<<\n')
+    print('>> any dict in will be converted to adict<<\n')
     d = adict({'j': [0]}, a=9, b={'p': 5})  # creat a adict
     print(d, '\n', type(d), type(d.b))  # subdict is also adict
     d.z = {'g': 6}  # setitem
